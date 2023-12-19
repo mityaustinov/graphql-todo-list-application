@@ -1,4 +1,4 @@
-# To-Do List Application made with React and GraphQl
+# To-Do List Application made with React and GraphQL
 
 Simple application with incomplte functionality to play with GraphQL queries and mutations
 
