@@ -22,12 +22,9 @@ const Component = styled.button`
 `
 
 const Button = ((props) => {
-  
   const {taskId, title} = props
-
-console.log(taskId);
-
-  const [markCompleted ] = useMutation(COMPLETE_TASK, {
+  
+  const [markCompleted, {data, loading, error}] = useMutation(COMPLETE_TASK, {
     variables: {
       "edits": {
         "completed": true
