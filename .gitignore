@@ -1,0 +1,37 @@
+node_modules
+.DS_Store
+
+# Global ignores - no matter what we're not going to take these.
+*/node_modules/
+[Tt]humbs.db
+[Dd]esktop.ini
+*.DS_store
+.DS_store?
+*.bin
+**/tmp/
+*.tmp
+*.bak
+*.log
+*.[Cc]ache
+*.cpr
+*.orig
+*.php.in
+.idea/
+**/temp/
+._*
+.Trashes
+.svn
+*.codekit
+*.codekit-cache
+*.scssc
+*.scss-cache
+*.sass-cache
+*.fusebox
+*.rst
+
+# Ignore all of the .envs other than the sample
+.env*
+!.env.sample
+
+# She's a keeper.
+!.gitkeep
