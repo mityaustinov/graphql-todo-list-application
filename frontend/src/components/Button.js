@@ -27,7 +27,7 @@ const Button = ((props) => {
 
 console.log(taskId);
 
-  const [markCompleted, {data, loading, error}] = useMutation(COMPLETE_TASK, {
+  const [markCompleted ] = useMutation(COMPLETE_TASK, {
     variables: {
       "edits": {
         "completed": true
