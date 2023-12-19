@@ -1,9 +1,7 @@
 import React from "react";
 import styled from "styled-components"
-import { gql, useMutation } from "@apollo/client";
 import { Link } from "react-router-dom";
 import Button from "./Button";
-
 
 const Component = styled.div`
   display: flex;
@@ -34,7 +32,7 @@ const Task = ((props) => {
 
       {!completed && 
         <div className="">
-          <Button />
+          <Button title="Complete" taskId={id} />
         </div>
       }
     </Component>

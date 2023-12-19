@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Logo from "../atoms/logo";
 
-
 const Component = styled.header`
   box-sizing: border-box;
   width: 100%;

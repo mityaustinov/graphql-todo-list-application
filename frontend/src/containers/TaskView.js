@@ -11,7 +11,6 @@ const Container = styled.div`
 `
 
 const TaskView = (() => {
-
   const{id} = useParams()
   const {data, loading, error} = useTask(id)
   
@@ -30,7 +29,7 @@ const TaskView = (() => {
       </div>
       {!completed && 
         <div className="">
-          <Button />
+          <Button title="Complete Task" taskId={id} />
         </div>
       }
     </Container>
